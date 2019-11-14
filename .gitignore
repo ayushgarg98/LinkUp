@@ -1,7 +1,10 @@
 # kartik
 linkupenv
 .idea
-*.pyc
+
+elasticsearch-5.1.1.tar.gz
+elasticsearch-7.4.2-linux-x86_64.tar.gz
+elasticsearch-7.4.2
 
 # Created by https://www.gitignore.io/api/django
 # Edit at https://www.gitignore.io/?templates=django
