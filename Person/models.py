@@ -5,4 +5,4 @@ from django.contrib.auth.models import  User
 class PersonDetails(models.Model):
     name = models.CharField(max_length=20)
     age = models.PositiveIntegerField()
-    auth_link = models.ForeignKey(User)
+    auth_link = models.ForeignKey(User, on_delete=models.PROTECT)
